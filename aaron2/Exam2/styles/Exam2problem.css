@@ -1,0 +1,90 @@
+body {
+    font-family: Arial
+}
+
+header {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #4587bf;
+    color: white
+}
+
+select,
+input,
+label,
+button {
+    width: 90%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem 5%;
+    border: 1px solid grey;
+    border-radius: 0;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+label,
+input,
+button {
+    margin: 0
+}
+
+button,
+input {
+    margin-top: 0.5rem;
+    padding: 0.3rem 0;
+    width: 100%;
+}
+
+button {
+    background-color: #4587c0;
+    color: white
+}
+
+label {
+    border: none
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5 {
+    padding: 5%;
+}
+
+#section2,
+#section1,
+#section3,
+#section4,
+#section5 {
+    display: none
+}
+
+p {
+    text-align: justify;
+    font-size: 1rem
+}
+
+table {
+    width: 100%;
+}
+
+#section3 table {
+    border: 2px solid black
+}
+
+td {
+    border: 1px solid black;
+    font-size: 1.5rem
+}
+
+#result1,
+#result2,
+#result3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}

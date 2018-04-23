@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Phonegap App</title>
+    <link rel="stylesheet" href="styles/Exam2problem.css">
+</head>
+
+<body>
+    <header>Customers</header>
+    <select name="area" id="area">
+        <option selected >-----select-----</option>
+        <option value="show1">Category List</option>
+        <option value="show2">Create Category</option>
+        <option value="show3">Update Category</option>
+        <option value="show4">Delete Category</option>
+        <option value="show5">About</option>
+    </select>
+    <section id="section1">
+        <h3>All Customers</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td>Category ID</td>
+                    <td>Category Name</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody id="categoryDetails"></tbody>
+        </table>
+    </section>
+    <section id="section2">
+        <h3>Create Category</h3>
+        <label>Enter category name</label>
+        <input type="text" id="categoryName">
+        <label>Enter category description</label>
+        <input type="text" id="categoryDesc">
+        <button onclick="createCategory()">Submit</button>
+        <div id="result1"></div>
+    </section>
+    <section id="section3">
+        <h3>Update Category</h3>
+        <label>Enter category ID</label>
+        <input type="text" id="cid">
+        <label>Enter category description</label>
+        <input type="text" id="cdesc">
+        <button onclick="updateCategory()">Submit</button>
+        <div id="result1"></div>
+    </section>
+    <section id="section4">
+        <h3>Delete Category</h3>
+        <label>Enter category ID</label>
+        <input type="text" id="custID">
+        <button onclick="deleteCategory()">Submit</button>
+        <div id="result3"></div>
+    </section>
+    <section id="section5">
+        <h3>About</h3>
+        <p>My name is Aaron.</p>
+    </section>
+</body>
+<script src="javascript/Exam2problem.js"></script>
+
+</html>
